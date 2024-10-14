@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 // const Property = require('./models/propertySchema');
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 
 
 app.use(require('./routes/authRoutes'));

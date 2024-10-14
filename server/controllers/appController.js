@@ -1,6 +1,6 @@
 const UserModel = require("../models/User.model");
 const PropertyModel = require("../models/propertySchema");
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt  = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const { reset } = require("nodemon");
