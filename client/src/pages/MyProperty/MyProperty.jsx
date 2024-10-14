@@ -30,7 +30,7 @@ const MyProperty = () => {
 
     useEffect(() => {
         if(id){
-            axios.get(`http://localhost:8000/getUserProperty/${id}`)
+            axios.get(`https://propertybazzar-server.onrender.com/getUserProperty/${id}`)
             .then(response => {
                 
                 setProperty(response.data);

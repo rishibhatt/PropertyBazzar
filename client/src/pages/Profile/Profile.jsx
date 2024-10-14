@@ -19,7 +19,7 @@ function Profile() {
     const [file,setFile] = useState(profileImage);
     useEffect(() => {
         if (token) {
-          axios.get(`http://localhost:8000/user/${username}`) 
+          axios.get(`https://propertybazzar-server.onrender.com/user/${username}`) 
                     .then(response => {
                         if(response.data.profile===" "){
                             setFile(mailAvatar)
@@ -39,7 +39,7 @@ function Profile() {
       const onSubmit = async(value) => {
         value = await Object.assign(value, {profile : file || ''});
         try {
-            const response = await axios.put(`http://localhost:8000/updateuser/${username}`, value);
+            const response = await axios.put(`https://propertybazzar-server.onrender.com/updateuser/${username}`, value);
             
             if (response.status === 200) {
                 

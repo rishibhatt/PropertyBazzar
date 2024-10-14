@@ -27,7 +27,7 @@ function Header() {
   useEffect(() => {
     if (token) {
       setLogButton('Logout');
-      axios.get(`http://localhost:8000/user/${username}`) 
+      axios.get(`https://propertybazzar-server.onrender.com/user/${username}`) 
                 .then(response => {
                     
                     if(response.data.profile===""){

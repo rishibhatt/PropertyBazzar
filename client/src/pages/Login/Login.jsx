@@ -13,7 +13,7 @@ function Login() {
     const onSubmit = async(value) => {
         value = await Object.assign(value);
         try {
-            const response = await axios.post("http://localhost:8000/login", value);
+            const response = await axios.post("https://propertybazzar-server.onrender.com/login", value);
             
     
             if (response.status === 200) {

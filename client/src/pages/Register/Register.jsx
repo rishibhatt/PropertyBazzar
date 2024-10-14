@@ -14,7 +14,7 @@ function Register() {
     const onSubmit = async(value) => {
         value = await Object.assign(value, {profile : file || ''});
         try {
-            const response = await axios.post("http://localhost:8000/register", value);
+            const response = await axios.post("https://propertybazzar-server.onrender.com/register", value);
     
             if (response.status === 201) {
                 toast.success("Congrats, Successfully registered!");

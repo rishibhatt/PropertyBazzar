@@ -10,7 +10,7 @@ export default function useUserProfile() {
 
     useEffect(() => {
         const fetchProfile = async () => {
-                axios.get(`http://localhost:8000/user/${username}`) 
+                axios.get(`https://propertybazzar-server.onrender.com/user/${username}`) 
                     .then(response => {
                         setProfile(response.data);
                         setProfileImage(response.data.profile)

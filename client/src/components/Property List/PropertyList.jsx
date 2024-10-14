@@ -20,7 +20,7 @@ function PropertyList() {
 
     useEffect(() => {
         
-            axios.get(`http://localhost:8000/getProperties`)
+            axios.get(`https://propertybazzar-server.onrender.com/getProperties`)
                 .then(response => {
                     
                     setProperty(response.data);

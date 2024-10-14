@@ -105,7 +105,7 @@ const validationSchema = Yup.object({
       
       try {
         
-        const response = await axios.post(`http://localhost:8000/postProperty/${id}`, values);
+        const response = await axios.post(`https://propertybazzar-server.onrender.com/postProperty/${id}`, values);
         
         if (response.status === 201) {
           setPhotos([]);
