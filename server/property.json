@@ -1,0 +1,44 @@
+{
+    "ownerId": "613f1f8ab25c3b001ecf9a9c",  
+    "propertyType": "Apartment",
+    "title": "Modern 2-Bedroom Apartment in Downtown",
+    "location": {
+      "address": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90015",
+      "country": "USA"
+    },
+    "description": "A spacious and modern 2-bedroom apartment located in the heart of downtown Los Angeles.",
+    "price": {
+      "amount": 350000
+    },
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1200,
+      "lotSize": 0,
+      "yearBuilt": 2015,
+      "furnishing": "Fully Furnished"
+    },
+    "features": [
+      "Balcony",
+      "Gym",
+      "Pool",
+      "24/7 Security"
+    ],
+    "media": {
+      "photos": [
+        
+      ]
+    },
+    "contactInfo": {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "+1-555-123-4567"
+    },
+    "propertyStatus": "For Sale",
+    "propertyCategory": "Residential",
+    "additionalInfo": "Close to public transportation, shopping centers, and schools."
+  }
+  

@@ -1,0 +1,36 @@
+.hero-container
+{
+    height: 70vh;
+    
+    margin: 0 auto;
+    /* border-radius: 0 0 50px 50px; */
+    opacity: 0.85;
+}
+
+.property-filter-container
+{
+  
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+}
+.property-filter-input
+{
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+
+
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+
+  .marquee-content {
+    animation: marquee 20s linear infinite;
+  }

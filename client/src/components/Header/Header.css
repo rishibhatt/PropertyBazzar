@@ -1,0 +1,14 @@
+.nav-item li
+{
+    margin-right: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.mobile-nav-item li
+{
+    margin-top: 4rem;
+    
+}
+
+

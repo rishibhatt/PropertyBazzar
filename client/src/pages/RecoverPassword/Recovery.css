@@ -1,0 +1,21 @@
+.glass
+{
+    background: rgba(255,255,255,0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255,255,255,0.1) ;
+    @apply border-4 border-whiteSmoke shrink-0 w-[30%] h-1/2 md:h-3/4 px-7 min-w-max rounded-3xl py-0
+}
+
+.profile_img
+{
+    @apply w-[135px] rounded-full shadow-lg cursor-pointer;
+    @apply hover:border-lightGreen
+}
+.textbox
+{
+    @apply border-0 px-3 py-2 rounded-xl w-3/4  text-lg;
+    @apply focus:outline-none;
+}
+

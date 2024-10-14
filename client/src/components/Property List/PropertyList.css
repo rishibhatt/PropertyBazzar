@@ -1,0 +1,10 @@
+.heading-title-container:after {
+    background: #222;
+    bottom: -10px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}

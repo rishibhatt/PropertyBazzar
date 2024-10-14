@@ -1,0 +1,12 @@
+.add-btn
+{
+    box-shadow: 5px 5px ;
+}
+.add-btn:hover
+{
+    box-shadow: 2px 2px ;
+}
+.property-container
+{
+    background-color:white;
+}
